@@ -3,10 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meet landing</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
-  <h1>hello world</h1>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__nav">
+        <a class="header__logo logo" href="#">
+          <img class="logo__img" src="./img/logo.svg" alt="Logo image" width="119" height="28">
+        </a>
+      </div>
+
+      <div class="header__image">
+        <picture class="header__picture">
+          <source media="(max-width:768px)" srcset="">
+          <img src="./img/image-hero-tablet.png" alt="" srcset="">
+        </picture>
+      </div>
+
+      
+      <div class="header__hero hero">
+        <h2 class="hero__heading">Group Chat for Everyone</h2>
+        <p class="hero__description">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <a href="#" class="btn btn-blue">
+          <span>Download</span>
+          <span class="btn--opacity">v1.34.1</span>
+        </a>
+
+        <a class="btn btn-purple" href="#">What is it?</a>
+      </div>
+    </div>
+  </header>
 </body>
 </html>

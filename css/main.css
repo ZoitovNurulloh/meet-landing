@@ -6,6 +6,15 @@ body {
   color: #87879d;
 }
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn {
   display: inline-block;
   width: 193px;

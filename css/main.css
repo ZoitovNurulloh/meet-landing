@@ -1,0 +1,41 @@
+
+.btn {
+  display: inline-block;
+  width: 193px;
+  text-align: center;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 16px 29px;
+  border-radius: 30px;
+}
+.btn:not(:last-child) {
+  margin-right: 16px;
+}
+.btn-blue {
+  color: #fff;
+  background-color: #4d96a9;
+}
+.btn-blue:hover {
+  background-color: #71c0d4;
+}
+.btn-blue:active {
+  opacity: 0.8;
+}
+.btn-purple {
+  background-color: #855fb1;
+  color: #fff;
+}
+.btn-purple .btn--opacity {
+  color: #d9b8ff;
+}
+.btn-purple:hover {
+  background-color: #b18bdd;
+}
+.btn-purple:active {
+  opacity: 0.8;
+}
+.btn--opacity {
+  color: #8fe3f9;
+}

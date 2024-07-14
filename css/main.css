@@ -55,3 +55,17 @@ body {
 .btn--opacity {
   color: #8fe3f9;
 }
+
+/* LOGO */
+.logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 119px;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.6;
+}

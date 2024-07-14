@@ -69,3 +69,42 @@ body {
 .logo:active {
   opacity: 0.6;
 }
+
+/* HEADER */
+.header {
+  margin-top: 83px;
+  margin-bottom: 314px;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.header__nav {
+  margin-bottom: 110px;
+}
+.header__image {
+  display: none;
+}
+
+.hero {
+  text-align: center;
+  width: 545px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero__heading {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  color: #28283d;
+  width: 445px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+}
+.hero__description {
+  margin-bottom: 32px;
+}
+
